@@ -6,7 +6,7 @@
     return "Hola, $name";
 }
 
-echo greet('Juan');
+echo greet('Julian');
 */
 
 // Trabajando con referencias
@@ -24,7 +24,7 @@ echo "<br>";
 
 // Predeterminado
 
-function greet($name = 'Juan')
+function greet($name = 'Julian')
 {
     return "Hola, $name";
 }

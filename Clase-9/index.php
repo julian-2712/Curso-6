@@ -3,7 +3,10 @@
 // Trabajando con valores
 function greet()
 {
-    return ['PDF', 'vista'];
+    // return ['PDF', 'vista'];
 }
 
-var_dump(greet());
+echo greet();
+
+// exit(); --> Detiene el sistema
+// return; --> Retorna un resultado
