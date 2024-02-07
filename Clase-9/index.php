@@ -3,7 +3,7 @@
 // Trabajando con valores
 function greet()
 {
-    return "Hola...";
+    return ['PDF', 'vista'];
 }
 
-echo greet('Juan');
+var_dump(greet());
